@@ -2,53 +2,64 @@
 <html lang="hu">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="csiken.css">
+    <link rel="icon type="image" href="csiken.png"/>"
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Procesador de Pollo</title>
 </head>
-<body>
-   <div class="container">
+<body class="bg-danger text-white">
+    <nav class="navbar">
+        <a href="#rolunk" class="nav-item btn btn-secondary col">Rólunk</a>
+        <a href="#termek" class="nav-item btn btn-secondary col">Éttermeink</a>
+        <span><a href="#nav"><img src="csiken.png"></a></span>
+        <a href="#helyek" class="nav-item btn btn-secondary col">Feldolgozóink</a>
+        <a href="#partner" class="nav-item btn btn-secondary col">Partnerünk</a>
+    </nav>
+    <div class="container-fluid">
+        
        <header>
-        <img src="csiken.png" alt="Procesador de Pollo logója">
         <h1>Procesador de Pollo</h1>
     </header>
-    <nav>
-        <a href="#rolunk">Rólunk</a>
-        <a href="#termek">Termékek</a>
-        <a href="#helyek">Feldolgozóink</a>
-        <a href="#partner">Partnerünk</a>
-    </nav>
     <main>
         <article id="rolunk">
+            <h2>Rólunk</h2>
             <p>A Procesador de Pollo csapata azért dolgozik, hogy önnek a legfrissebb és legminőségibb termékeket nyújtsa. A csapatunk mindenét arra adja, hogy a legtöbbet ki a húsból.</p>
+            <div class="alapito">
+                <img class="img-thumbnail" src="dreamy.jpg" alt="Alapító">
+                <p>Ambha Sin - alapítónk</p>
+            </div>
         </article>
         <article id="termek">
+            <h2>Termékek</h2>
             <p>Igyekszünk minden részét felhasználni a csirkének.</p>
-            <img src="csirek.jpg" alt="Csirke részei">
+            <img class="img-thumbnail" src="csirke.jpg" alt="Csirke részei">
         </article>
         <article id="helyek">
-            <p>Feldolgozóink települései:</p>
-            <ul>
-                <li>Győr</li>
-                <li>Pécs</li>
-                <li>Kecskemét</li>
-                <li>Nyíregyháza</li>
-                <li>Szombathely</li>
-            </ul>
-            <img src="ettermek.jpg" alt="Feldolgozók">
+            <h2>Feldolgozóink települései:</h2>
+            <img class="rounded" src="ettermek.jpg" alt="Feldolgozók">
+                <ul>
+                    <li>Győr</li>
+                    <li>Pécs</li>
+                    <li>Kecskemét</li>
+                    <li>Nyíregyháza</li>
+                    <li>Szombathely</li>
+                </ul>
         </article>
         <article id="partner">
-            <p>Partnerünk</p>
-            <p><a href="los pollos hermanos.html" target="_blank">Los Pollos Hermanos</a>, partnercégünk a lehető legfrissebb húsból nyújtja a lehető legfinomabb szendvicseket, sült csirkéket amiket rendelni lehet. Szerencsénk van ahhoz, hogy egy ilyen nagy kaliberű partnerünk lehet.</p>
-            <img src="cimer.jpg" alt="Los Pollos Hermanos logója">
+            <h2>Partnerünk</h2>
+            <p><span>Los Pollos Hermanos</span>, partnercégünk a lehető legfrissebb húsból nyújtja a lehető legfinomabb szendvicseket, sült csirkéket amiket rendelni lehet. Szerencsénk van ahhoz, hogy egy ilyen nagy kaliberű partnerünk lehet.</p>
+            <a href="los pollos hermanos.html" target="_blank"><img class="rounded-circle" src="LPH.png" alt="Los Pollos Hermanos logója" ></a>
         </article>
     </main>
+    <hr>
     <footer>
-        <h3>Elérhetőségünk</h3>
-            <p>Telefonszám: +36200962866</p>
-            <p>E-mail: procesador.csiken>@gmail.com</p>
-            <br>
-        <p>Procesador de Pollo&copy;</p>
+            <h3>Elérhetőségünk</h3>
+                <p>&phone; Telefonszám: +36 20 096 2866</p>
+                <p>&#9993; E-mail:  procesador.csiken@gmail.com</p>
+                <p>&#10022; Székhely: Kazincbarcika, Herbolyai út 7/A, 3700</p>
+        <p id="copyright">Procesador de Pollo&copy;</p>
     </footer>
    </div>
 </body>

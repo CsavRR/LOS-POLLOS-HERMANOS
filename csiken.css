@@ -1,0 +1,57 @@
+.navbar{
+    overflow: hidden;
+    background-color: #00000085;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    text-align: center;
+}
+.container-fluid h1{
+    padding-top: 150px;
+}
+#copyright{
+    float: right;
+}
+.elerhetoseg{
+    text-align: center;
+}
+#termek img{
+    width: 50%;
+}
+nav a{
+    color: white;
+    padding: 20px;
+    font-size: 2em;
+    padding-bottom: 150px;
+}
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+}
+nav img{
+    width: 120px;
+}
+.container-fluid{
+    text-align: center;
+}
+#helyek p{
+    line-height: 5px;
+}
+p{
+    font-size: 1,75em;
+}
+h1, h2, h3{
+    font-variant: small-caps;
+}
+h2{
+    font-size: 2em;
+    text-decoration: underline;
+}
+span{
+    font-weight: 700;
+}
+p{
+    font-size: 1.25em;
+}
+li{ 
+list-style-type: none;
+}
