@@ -1,0 +1,123 @@
+
+.navbar{
+  overflow: hidden;
+  background-color: #3335;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+}
+
+.btn{
+    margin: 5px;
+    font-variant: small-caps;
+}
+
+.ikon{
+    height: 63px;
+}
+
+.container-fluid{
+    text-align: center;
+}
+
+#rolunk, #ettermeink, #etlap, #partnerek, #focim{
+    height: 70px;
+    padding-bottom: 70px;
+}
+
+a, div, p, li, h3, h4{
+    color: whitesmoke
+}
+
+h1, h2{
+    text-decoration: underline;
+    text-align: center;
+    font-weight: 600;
+}
+
+h2{
+    margin-bottom: 5vh;
+    font-variant: small-caps;
+    color: aliceblue;
+    text-shadow: 1px 1px darkgray;
+}
+
+h1{
+    margin-top: 1em;
+    font-size: 4em;
+    text-shadow: 3px 3px red;
+    color: rgba(255, 255, 0, 0.788);
+}
+
+h4{
+    text-decoration: underline;
+}
+
+q{
+    font-style: italic;
+}
+
+footer p{
+    color: lightgray;
+    margin-bottom: 0.5em;
+}
+
+header img{
+    height: 65vh;
+}
+
+.portrek{
+    height: 55vh;
+    width: 22vw;
+}
+.ettermeink img{
+    height: 65vh;
+    width: 60vw;
+}
+
+.nyitvatartas{
+    margin-top: 10vh;
+    width: 18vw;
+    line-height: 50px;
+    font-size: 1.1em;
+    border: 1px solid darkgray;
+    background-color: rgb(59, 68, 68, 0.85);
+    padding-right: 1em;
+}
+
+.nyitvatartas div:last-child{
+    list-style-type: none;
+}
+
+.nyitvatartas div, ul{
+    text-align: left;
+}
+
+.etel img{
+    width: 25vw;
+    height: 30vh;
+}
+
+.etel .felirat{
+    text-align: center;
+}
+
+.etel .felirat:last-child{
+    margin-top: -1em;
+}
+
+.partner{
+    margin-top: -8vh;
+    margin-bottom: 1vh;
+}
+
+.partnerkep{
+    height: 70vh;
+}
+
+.partnerunkrol p{
+    margin-top: 15vh;
+    font-size: 1.2em;
+}
+
+
