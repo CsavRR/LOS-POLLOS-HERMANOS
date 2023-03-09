@@ -5,83 +5,116 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Los Pollos Hermanos</title>
-    <link rel="icon" type="image/jpg" href="cimer.jpg"/>
+    <link rel="icon" type="image/jpg" href="los pollos cimer.png"/>
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="los pollos css.css">
 </head>
-<body>
+<body class="bg-dark">
+  
+    <nav class="navbar">
+        <a href="#rolunk" class="nav-item btn btn-secondary col">Rólunk</a><a href="#ettermeink" class="nav-item btn btn-secondary col">Éttermeink</a><a href="#focim"><img src="los pollos cimer.png" class="ikon"></a><a href="#etlap" class="nav-item btn btn-secondary col">Étlap</a><a href="#partnerek" class="nav-item btn btn-secondary col">Beszállítónk</a>
+    </nav>  
     
-<div class="container">
-    <header>
+
+<div class="container-fluid">
+
+
+    <header class="vh-100">
+        <div id="focim"></div>
         <h1>Los Pollos Hermanos</h1>
-        <img src="cimer.jpg" alt="címer">
+        <a href="los pollos hermanos.html"><img src="los pollos cimer.png" alt="címer"></a>
     </header>
 
-    <nav>
-        <a href="#rolunk">Rólunk</a><a href="#ettermeink">Éttermeink</a><a href="#etlap">Étlap</a><a href="#partnerek">Beszállítonk</a>
-    </nav>
 
-    <main>
-        <article>
-            <h2 id="rolunk">Rólunk</h2>
-            <div>
-                <img src="gus.png" alt="Gustavo Fring">
+    <main class="container">
+
+        <div id="rolunk"></div>     
+        <hr>    
+  
+        <article class="vh-100">
+            <h2>Rólunk</h2>
+            <div class="float-start w-50">
+            <div> 
+                <img src="gus.png" alt="Gustavo Fring" class="portrek rounded">
                 <h3 class="felirat">Gustavo Fring vezérigazgató</h3>
             </div>
-            <q>Üdvözöllek a Los Pollos Hermanosnál! A nevem Gusztáv, de hívhatsz Gusztinak is. Az éttermünkben mindent megteszünk annak érdekében, hogy a legjobb élményt nyújtsuk Önöknek, és a lehető legmagasabb minőségű ételeket és italokat kínáljuk.</q>
+            <q class="vw-50">Üdvözöllek a Los Pollos Hermanosnál! A nevem Gusztáv, de hívhatsz Gusztinak is. Az éttermünkben mindent megteszünk annak érdekében, hogy a legjobb élményt nyújtsuk Önöknek, és a lehető legmagasabb minőségű ételeket és italokat kínáljuk.</q>
+            </div>
+
+            <div class="float-start w-50">
+            <div> 
+                <img src="huell.png" alt="Huell Menedzser" class="portrek rounded">
+                <h3 class="felirat">Huell a menedzser</h3>
+            </div>
+            <q class="vw-50">Szeretnénk, ha az éttermünk nemcsak egy hely lenne az evésre, hanem egy közösségi tér is, ahol jól érezhetik magukat a vendégeink. Várjuk Önöket szeretettel az éttermünkben!</q>
+            </div>
         </article>
 
-        <article>
-            <h2 id="ettermeink">Éttermeink</h2>
-            <h3>Jelenleg ezeken a településeken vagyunk jelen:</h3>
-            <div>
-                <ul>
-                    <li>Budapest</li>
-                    <li>Szeged</li>
-                    <li>Győr</li>
-                    <li>Sopron</li>
-                    <li>Dunaújváros</li>
-                    <li>Szombathely</li>
-                    <li>Székesfehérvár</li>
-                    <li>Pécs</li>
-                    <li>Kecskemét</li>
-                    <li>Debrecen</li>
-                    <li>Miskolc</li>
-                    <li>Nyíregyháza</li>
-                </ul>
+        <div id="ettermeink"></div>
+        <hr>
+
+        <article class="vh-100">
+            
+            <h2>Éttermeink</h2>
+            
+            <div  class="ettermeink w-50 float-start">
+              <h3>Jelenleg az alábbi településeken vagyunk jelen:</h3>   
+                <img src="ettermek.jpg" alt="éttermeink">
             </div>
-                <div class="jobbra"><img src="ettermek.jpg" alt="éttermeink" class="ettermeink"></div>
-            <ul class="nyitvatartas" >
-                Nyitvatartás:
-                    <li>Hétfő - Péntek: 8:00 - 21:00</li>
-                    <li>Szombat: 9:00 - 22:00</li>
-                    <li>Vasárnap: Zárva</li>
+            <div class="nyitvatartas float-end">
+                <h4>Nyitvatartás</h4>
+            <ul class="float-start">
+                    
+                    <li>Hétfő - Péntek:</li>
+                    <li>Szombat:</li>
+                    <li>Vasárnap:</li>
             </ul>
+                <div class="float-end">
+                    
+                    <li>8:00 - 21:00</li>
+                    <li>9:00 - 22:00</li>
+                    <li>Zárva</li>
+                </div>
+           </div>
+         
         </article>
 
-        <article>
-            <h2 id="etlap">Étlap</h2>
-            <div class="menu1">
-                <div class="etel"><img src="csirkeszarny.jpg"><p class="felirat">Csirkeszárny</p><p class="felirat">250Ft</p></div>
-                <div class="etel"><img src="csirkecomb.jpg"><p class="felirat">Csirkecomb</p><p class="felirat">300Ft</p></div>
-                <div class="etel"><img src="csirkeburger.jpg"><p class="felirat">Csirkeburger</p><p class="felirat">600Ft</p></div>
+        <div id="etlap"></div>
+        <hr>
+
+        <article class="vh-100">
+           
+            <h2>Étlap</h2>
+            <div class="menu1 row">
+                <div class="etel col-4"><img src="csirkeszarny.jpg" class="rounded"><p class="felirat">Csirkeszárny</p><p class="felirat">250Ft</p></div>
+                <div class="etel col-4"><img src="csirkecomb.jpg" class="rounded"><p class="felirat">Csirkecomb</p><p class="felirat">300Ft</p></div>
+                <div class="etel col-4"><img src="csirkeburger.jpg" class="rounded"><p class="felirat">Csirkeburger</p><p class="felirat">600Ft</p></div>
             </div>
-            <div class="menu2">
-                <div class="etel"><img src="csirkemell.png"><p class="felirat">Csirkemell</p><p class="felirat">500Ft</p></div>
-                <div class="etel"><img src="csirkepaprikas.jpg"><p class="felirat">Csirkepaprikás</p><p class="felirat">1200Ft</p></div>
-                <div class="etel"><img src="uccsi.png"><p class="felirat">Üdítő</p><p class="felirat">350Ft</p></div>
+            <div class="menu2 row">
+                <div class="etel col-4"><img src="csirkemell.png" class="rounded"><p class="felirat">Csirkemell</p><p class="felirat">500Ft</p></div>
+                <div class="etel col-4"><img src="csirkepaprikas.jpg" class="rounded"><p class="felirat">Csirkepaprikás</p><p class="felirat">1200Ft</p></div>
+                <div class="etel col-4"><img src="uccsi.png" class="rounded"><p class="felirat">Üdítő</p><p class="felirat">350Ft</p></div>
             </div>
+            
         </article>
-    
-        <article>
-            <h2 id="partnerek">Beszállítónk</h2>
-            <q>Az éttermünk ételeihez csak a legmagasabb minőségű alapanyagokat használjuk fel. Ennek érdekében szorosan együttműködünk beszállítónkkal, akik garantálják az alapanyagok frissességét és minőségét.</q>
-            <div class="beszallito">
-                <a href="csiken.html" target="_blank"><img src="csiken.png" alt="beszállítonk"></a>
-                <h3 class="felirat"><a href="csiken.html" target="_blank"> Procesador de Pollo</a></h3>
+
+        <div id="partnerek"></div>
+        <hr>
+
+        <article class="vh-100">
+            
+            <h2>Beszállítónk</h2>
+            <div class="float-start w-50 partnerunkrol">
+            <p>Éttermünk kiemelt beszállítója a <b>Procesador de Pollo</b>, amely nagy hangsúlyt fektet az <i>élelmiszerbiztonságra</i>, a <i>minőségre</i> és a <i>fenntarthatóságra</i>. Számunkra az alapanyagok minősége és <i>frissessége</i> kulcsfontosságú, és ezért nagyon fontos, hogy megbízható és minőségi beszállítónk legyen.</p>
+            <p>Szeretnénk köszönetet mondani az üzemnek, hogy hozzájárulnak éttermünk sikeréhez. Az üzemmel való jó kapcsolatunk továbbra is segíteni fog minket abban, hogy a vendégeinknek mindig a legjobb minőséget és szolgáltatást nyújtsuk.</p>
+            </div>
+            <div class="beszallito float-end w-50">
+                <a href="csiken.html" target="_blank"><img src="csiken.png" alt="beszállítonk" class="partnerkep"></a>
+                <h3 class="felirat partner"><a href="csiken.html" target="_blank" class="btn btn-secondary"> Procesador de Pollo weboldala</a></h3>
             </div>
         </article>
     </main>
-
+<hr>
     <footer>
         <div class="kapcsolat">
             <p>Telefonszám: +36708843066</p>
